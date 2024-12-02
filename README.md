@@ -7,7 +7,9 @@ Classifying cryptocurrencies by price fluctuations
 ## Execution
 
 ### Dependnencies
-Pandas
+
+[Pandas](https://pandas.pydata.org/)
+
 sklearn.cluster.KMeans
 sklearn.preprocessing.StandardScaler
 
@@ -17,7 +19,7 @@ sklearn.preprocessing.StandardScaler
 
 1. Ingest cryptocurrency pricing data using Pandas
 1. Cleansing the raw input data was not needed because all rows contained non-null floats.
-1. Normalize the features using sklearn.preprocessing.StandardScaler
+1. Normalize the features by adjusting the scale of the numeric features using sklearn.preprocessing.StandardScaler 
 1. Create clusers using sklearn.cluster.KMeans specifying the ideal k value.
     1. First using the original set of features
     1. Then again using a set of features modified using Princpal Compononent Analysis. In the real world, PCA would likely not be required for this amount of data.
