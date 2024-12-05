@@ -28,11 +28,13 @@ The below process was roughly followed in Crypto_Clustering.ipynb
     1. First using the original set of features
     1. Then again using a set of features modified using Princpal Compononent Analysis. In the real world, PCA would likely not be required for this amount of data.
 
-## Lesson
+<details>
+    <summary> Associated Lesson</summary>
 
-Lesson 11 - Unsupervised Learning
+## Lesson 11 - Unsupervised Learning
 
 Concepts covered:
 
 * Using *Standard Scaling* to normalize data.
 * Using *Principal Component Analysis (PCA)* to reduce the number of features requiring analysis to cluser the data
+</details>
